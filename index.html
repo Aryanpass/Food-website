@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: lato, sens-serif;
+        }
+
+        .nav {
+
+            display: flex;
+            justify-content: space-between;
+            height: 80px;
+            width: 100vw;
+            background-color: rgb(0, 0, 0);
+            position: fixed;
+        }
+
+        .head {
+            display: flex;
+            height: 100vh;
+            width: 100vw;
+        }
+
+        .head-left {
+            height: 100vh;
+            width: 50vw;
+            margin-top: 10%;
+
+            margin-left: 10%;
+        }
+
+        .head-right {
+            padding-right: 200px;
+            padding-top: 20px;
+
+            margin-top: 12%;
+            height: 60vh;
+            width: 50vw;
+
+        }
+
+        .material-symbols-outlined {
+            color: aliceblue;
+            margin-right: 80px;
+            font-size: 40px;
+            size: 500px;
+            line-height: 80px;
+
+        }
+
+        .head-button {
+            font-size: large;
+            margin-bottom: 50px;
+            border: 1px solid rgb(97, 193, 97);
+            background-color: rgb(97, 193, 97);
+            height: 50px;
+            width: 200px;
+            color: white;
+        }
+
+        .title {
+            line-height: 35px;
+            padding-top: 20px;
+            font-size: 50px;
+        }
+
+        .head-para {
+            margin-top: 40px;
+        }
+
+        .head-button2 {
+            margin-top: 40px;
+            border: 1px solid rgb(213, 151, 128);
+            background-color: rgb(213, 151, 128);
+            color: white;
+            height: 60px;
+            font-size: 20px;
+            width: 150px;
+        }
+
+        .head-footer {
+            display: flex;
+            margin-left: 20%;
+            height: 100px;
+            max-width: 60%;
+
+        }
+
+        .voucher {
+            display: flex;
+            align-self: center;
+            height: 100%;
+            width: 33%;
+            /* background-color: aquamarine; */
+        }
+
+        .voucher-text {
+            margin-top: 5%;
+            margin: 6%;
+        }
+
+        .food {
+            display: flex;
+            height: 100%;
+            width: 33%;
+            /* background-color: rgb(244, 167, 167); */
+        }
+
+        .food-text {
+            margin-top: 5%;
+            margin: 6%;
+        }
+
+        .delivery {
+            display: flex;
+            height: 100%;
+            width: 33%;
+            /* background-color: rgb(0, 0, 0); */
+        }
+
+        .delivery-text {
+            margin-top: 5%;
+            margin: 6%;
+        }
+
+        .main-button {
+            margin-top: 50px;
+            margin-left: 50%;
+            border: 1px solid rgb(97, 193, 97);
+            background-color: rgb(97, 193, 97);
+            height: 50px;
+            width: 120px;
+            color: white;
+            font-size: large;
+
+        }
+
+        .main-h1 {
+
+            font-size: 40px;
+            margin-top: 50px;
+            text-align: center;
+        }
+
+        .img-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            height: 80vh;
+            width: 90vh;
+            margin: 0 auto;
+            /* gap: 10px; */
+        }
+
+        /* img{
+        height: 20%;
+        width: ;
+    } */
+        .last-page {
+
+            margin-top: 80px;
+            background-color: bisque;
+            height: 40vh;
+            width: 100vw;
+        }
+
+        .foooter-container {
+            
+            gap: 80px;
+            display: flex;
+            height: 200px;
+            width: 70vw;
+            margin: 0 auto;
+           
+        }
+        
+        .img-log {
+            margin-top: 50px;
+            
+        }
+        
+        .mai-link {
+            margin-top: 35px;
+            
+        }
+        h6{
+            font-weight: 100;
+            font-size: 15px;
+            line-height: 20px;
+        }
+        .h6{
+            margin-top: 20px;
+
+        }
+        
+        .support {
+
+            margin-top: 35px;
+        }
+        
+        .form {
+            margin-top: 35px;
+
+        }
+        </style>
+</head>
+
+<body>
+    <section>
+
+
+        <div class="nav">
+            <img src="logo.png" alt="">
+            <div class="nav-icon">
+
+                    <span class="material-symbols-outlined">
+                    <a href=""></a>menu
+                </span>
+            </div>
+        </div>
+        <div class="head">
+            <div class="head-left">
+
+                <img src="hero_image.png" alt="">
+            </div>
+            <div class="head-right">
+                <button class="head-button" type="none">50% OFF All Products</button>
+                <section>
+                    <h1 class="title">Enjoy Your </h1>
+                </section>
+                <section>
+                    <h1 class="title"> Delicious Food</h1>
+                </section>
+
+
+                <p class="head-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat asperiores amet
+                    quia atque dolor maxime,</p>
+                <button class="head-button2" type="none">Explore Now </button>
+            </div>
+        </div>
+    </section>
+    <section>
+
+        <div class="head-footer">
+            <div class="voucher">
+                <img src="discount.png" alt="">
+                <div class="voucher-text">
+                    <h4>Discount Voucher</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div>
+            <div class="food">
+                <img src="fresh.png" alt="">
+                <div class="food-text">
+                    <h4>Fresh Healthy Food</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                </div>
+            </div>
+            <div class="delivery">
+                <img src="delivery.png" alt="">
+                <div class="delivery-text">
+                    <h4>Fast Home Delivery</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit
+                </div>
+            </div>
+        </div>
+        <hr style="margin-top: 80px;">
+
+        <section>
+            <div class="main">
+                <button class="main-button">Our Menu</button>
+                <h1 class="main-h1">Explore Our Menu</h1>
+                <div class="img-container">
+                    <img src="grid_image1.png" alt="">
+                    <img src="grid_image2.png" alt="">
+                    <!-- <img src="grid_image3.png" alt="">
+            <img src="grid_image4.png" alt="">
+             <img src="grid_image5.png" alt="">
+            <img src="grid_image6.png" alt="">
+            <img src="grid_image7.png" alt="">
+            -->
+                </div>
+            </div>
+        </section>
+        <footer>
+            <section class="last-page">
+                <div class="foooter-container">
+                    <div class="img-log">
+                        <img src="logo.png" alt="">
+                    </div>
+                    <div class="mai-link">
+                        <h4>Main Link</h4>
+                        <div class="h6">
+
+                            <h6>Our Tracking</h6>
+                            <h6>New Order</h6>
+                            <h6>Contact US</h6>
+                            <h6>News & Blogs</h6>
+                        </div>
+                    </div>
+                    <div class="support">
+                        <h4>Support</h4>
+                        <div class="h6">
+                            <h6>About Us</h6>
+                            <h6>Privacy  </h6>
+                            <h6>Terms and Condition</h6>
+                        </div>
+                    </div>
+                    <div class="form">
+                        <h4>Join Our Newsletter</h4>
+                        <input type="text" placeholder="Enter Your Email Address" style="height: 25px; width: 250px; border: transparent;">
+                            <h4 style="margin-top: 20px;">Follow Us</h4>
+                        
+                    </div>
+                </div>
+            </section>
+        </footer>
+</body>
+
+</html>
